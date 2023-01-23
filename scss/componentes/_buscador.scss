@@ -1,0 +1,37 @@
+@use"../globales/variables" as v;
+@use'../globales/mixings' as m;
+.buscadorPrimigenio
+{
+    color: white;
+    border-radius: 1rem;
+    height:39rem;
+    margin: 5px;
+    background: linear-gradient(180deg, rgb(38, 38, 38) 0%, rgba(0, 123, 105, 0.26) 76%);
+    .nombre-filter,.radio-filter
+    {
+        margin-left: 1rem;
+    }
+    .boxRadio
+    {
+        display: flex;
+        margin-left: 1rem;
+    }
+    .radio-class
+    {
+        height: 1.7em;
+        width: 1.7rem;
+        
+    }
+    .input-text
+    {
+        width: 80%;
+        height: 3.6rem;
+        border: .1px;
+        border-radius: .3rem;        
+    }
+    .Buscador-Precio
+    {
+        display: none;
+    }
+    
+}
